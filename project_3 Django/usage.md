@@ -15,3 +15,6 @@
 * password: *~root123123~*
 * username：alice
 * password: *~root123123~*
+
+### 作者的部署网站
+> https://learning-log.herokuapp.com
