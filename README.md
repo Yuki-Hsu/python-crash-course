@@ -7,3 +7,6 @@
 作者源代码仓库：
 * https://github.com/ehmatthes/pcc
 * https://ehmatthes.github.io/pcc
+
+运行环境
+Windows python-3.6.4
