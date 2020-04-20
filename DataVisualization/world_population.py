@@ -1,5 +1,5 @@
 import json
-import pygal.maps.world
+import pygal_maps_world.maps
 from country_codes import get_country_code
 
 # 将数据加载到一个列表中
@@ -19,7 +19,7 @@ for pop_dict in pop_data:
 		# else:
 		# 	print('ERROR - ' + country_name)
 			cc_populations[code] = population
-wm = pygal.maps.world.World()
+wm = pygal_maps_world.maps.World()
 wm.title = 'World Population in 2010, by Country'
 wm.add('2010', cc_populations)
 wm.render_to_file('world_population.svg')

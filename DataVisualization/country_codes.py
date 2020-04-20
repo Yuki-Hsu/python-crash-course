@@ -1,5 +1,7 @@
 # from pygal.i18n import COUNTRIES
-from pygal.maps.world import COUNTRIES
+# from pygal.maps.world import COUNTRIES 
+"""ModuleNotFoundError: No module named 'pygal.maps.world'"""
+from pygal_maps_world.i18n import COUNTRIES
 
 def get_country_code(country_name):
 	"""根据指定的国家，返回Pygal使用的两个字母的国别码"""
